@@ -1,0 +1,23 @@
+#pragma source off
+#pragma token off
+#pragma statistic off
+#pragma symbol on
+
+void func(int a, float b);
+
+int a;
+const int blabla=1, globalConst=2;
+int fun()
+{
+    const int constVal=1;
+    return 0;
+}
+
+int d;
+int a;
+
+void func(int a, int c)
+{
+    int b;
+}
+const int globalConst=3;
